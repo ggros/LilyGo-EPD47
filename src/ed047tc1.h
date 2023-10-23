@@ -11,6 +11,9 @@ extern "C" {
 
 #include <driver/gpio.h>
 
+#include <esp_system.h> // For IRAM_ATTR
+
+
 #include <stdint.h>
 
 /******************************************************************************/

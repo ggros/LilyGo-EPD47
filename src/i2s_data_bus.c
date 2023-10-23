@@ -15,6 +15,13 @@
 #include "esp_err.h"
 #include "esp_log.h"
 
+// These for GPIO_PIN_MUX_REG and friends
+#include <soc/gpio_periph.h>
+#include <hal/gpio_ll.h>
+// This for gpio_matrix_out
+#include <rom/gpio.h>
+
+
 /******************************************************************************/
 /***        macro definitions                                               ***/
 /******************************************************************************/
